@@ -4,7 +4,7 @@
     "randomizeDLCshrines":true,
     "randomizeDivineBeasts":true,
     "randomizeTrials":true,
-    "bossProb":12,
+    "bossProb":32,
     "chaosMode":false,
     "autoinstall":true
 }
