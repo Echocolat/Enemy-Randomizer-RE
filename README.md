@@ -29,13 +29,22 @@ This allows to randomize enemies from another mod, but it will take more steps. 
 
 ##### Vanilla Mode
 
-Modify `config_randomizer.json` and / or `config_enemy_weights` as you please, and launch `main_vanilla_mode.py`.  
+Modify `resources\config_randomizer.json` and / or `resources\config_enemy_weights` as you please, and launch `main_vanilla_mode.py`.  
 Wait until it finishes; if you don't use autoinstall, drag the `rules.txt` into the newly created Enemizer folder,  
 and install it later with BCML. If you do use autoinstall, you can just activate the mod and enjoy.
 
 ##### Modded Mode
 
-Work In Progress
+This is way trickier than Vanilla Mode. First, choose the mod from where come the enemies you want to add to the randomization  
+pool. First, you have to add all the enemies you want in both `resources (modded)\config_enemy_weights.json` and  
+`resources (modded)\defaults.json`. For the latter one, you also want to add them to the `ItemTables` dict if you want  
+them to have some weapons. For defaults.json, you have to add parameters to the enemy (you can just look at how I did in  
+`presets\rotp\defaults.json` . The best option is to just copy it from a similar enemy. Then, create a folder, anywhere.  
+Take all the important data from the base mod you're extracting the enemies from (Actor, Sound, UI, Model, Effect, Pack except  
+Bootup.pack), and put them in `[yourfolder]\content`. Launch `main_modded_mode.py`, take the content within the  
+`Enemizer (modded)` folder and copy to `[yourfolder]`. Take the `rules.txt` in this folder and copy it to `[yourfolder]`.  
+Install the mod with BCML, activate it, and if you did everything good, it should work. If the mod you're using also uses  
+new weapons, don't forget to add them to the `ItemTableData` section of `defaults.json`.
 
 #### Conclusion
 
