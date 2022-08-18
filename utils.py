@@ -182,15 +182,15 @@ def get_random_weapons_modded(unit_config_name) -> list:
         else:
             return [random.choice(get_item_table('Sword')),random.choice(get_item_table('Shield'))]
 
-def get_random_enemy(config_data,ischaosactive):
+def get_random_enemy(config_data,ischaosactive,ratio):
 
     if ischaosactive:
-        if random.randint(1,15) == BOSS_PROB:
+        if random.randint(1,BOSS_PROB) == 1:
             enemy =  random.choice(list(DEFAULTS['Bosses']))
         else:
             enemy =  random.choice(list(DEFAULTS['Enemies']))
     else:
-        if random.randint(1,15) == BOSS_PROB:
+        if random.randint(1,BOSS_PROB) == 1:
             enemy = random.choice(WEIGHTEDBOSSES)
         else:
             enemy = random.choice(WEIGHTEDENEMIES)
@@ -279,15 +279,15 @@ def get_random_enemy(config_data,ischaosactive):
 
     return config_data
 
-def get_random_enemy_modded(config_data,ischaosactive):
+def get_random_enemy_modded(config_data,ischaosactive,ratio):
 
     if ischaosactive:
-        if random.randint(1,15) == BOSS_PROB:
+        if random.randint(1,int(BOSS_PROB*ratio)) == 1:
             enemy =  random.choice(list(DEFAULTS_MODDED['Bosses']))
         else:
             enemy =  random.choice(list(DEFAULTS_MODDED['Enemies']))
     else:
-        if random.randint(1,15) == BOSS_PROB:
+        if random.randint(1,int(BOSS_PROB*ratio)) == 1:
             enemy = random.choice(WEIGHTEDBOSSESMODDED)
         else:
             enemy = random.choice(WEIGHTEDENEMIESMODDED)

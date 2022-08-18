@@ -43,7 +43,7 @@ them to have some weapons. For defaults.json, you have to add parameters to the 
 Take all the important data from the base mod you're extracting the enemies from (Actor, Sound, UI, Model, Effect, Pack except  
 Bootup.pack), and put them in `[yourfolder]\content`. Launch `main_modded_mode.py`, take the content within the  
 `Enemizer (modded)` folder and copy to `[yourfolder]`. Take the `rules.txt` in this folder and copy it to `[yourfolder]`.  
-Install the mod with BCML, activate it, and if you did everything good, it should work. If the mod you're using also uses  
+Install the mod with BCML, activate it, and if you did everything good, it should work. If the mod you're using also uses 
 new weapons, don't forget to add them to the `ItemTableData` section of `defaults.json`.
 
 #### Conclusion
