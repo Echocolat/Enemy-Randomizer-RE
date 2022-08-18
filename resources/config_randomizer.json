@@ -5,5 +5,6 @@
     "randomizeDivineBeasts":true,
     "randomizeTrials":true,
     "bossProb":18,
-    "chaosMode":false
+    "chaosMode":false,
+    "autoinstall":true
 }
