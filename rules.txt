@@ -1,6 +1,6 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = Enemizer v1
-path = The Legend of Zelda: Breath of the Wild/Mods/Enemizer v1
+name = Enemizer v3
+path = The Legend of Zelda: Breath of the Wild/Mods/Enemizer v3
 description = Randomizes enemies and their weapons
 version = 4
