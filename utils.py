@@ -15,7 +15,7 @@ with open(r"resources (modded)\\config_enemy_weights.json",'r') as weights:
     WEIGHTS_MODDED = json.loads(weights.read())
 
 with open(r"resources\config_randomizer.json",'r') as boss_prob:
-    BOSS_PROB = json.loads(boss_prob.read())
+    BOSS_PROB = json.loads(boss_prob.read())['bossProb']
 
 truetableenemies = []
 for enemy in list(DEFAULTS['Enemies']):
