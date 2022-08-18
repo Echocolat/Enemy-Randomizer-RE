@@ -43,9 +43,9 @@ def randomize_map_modded(data,ischaos,map_unit,aoc=False):
     
     file_map_decr = oead.byml.from_binary(oead.yaz0.decompress(data))
     if map_unit in ['D-6','E-6','D-7','E-7']:
-        ratio = 0.5
+        ratio = 3
     else:
-        ratio = 1.0
+        ratio = 1
     
     for unit_config in file_map_decr["Objs"]:
 
