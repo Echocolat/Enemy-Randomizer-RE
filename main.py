@@ -76,4 +76,14 @@ def randomize_divine_beasts(chaosmode = RANDO_CONFIG['chaosMode']):
         with open('Enemizer\\aoc\\0010\\'+file,'wb') as f:
             f.write(file_data)
 
-randomize_divine_beasts()
+def randomize_trials(chaosmode = RANDO_CONFIG['chaosMode']):
+    for file in FILE_LIST['Trials files']:
+
+        file_data = util.get_game_file(file, aoc=True).read_bytes()
+        file_data = randomize_map(file_data,chaosmode,file,aoc=True)
+
+        folder = os.path.join('Enemizer\\aoc\\0010\\Map\\AocField\\'+file[17:20])
+        os.makedirs(folder, exist_ok = True)
+
+        with open('Enemizer\\aoc\\0010\\'+file,'wb') as f:
+            f.write(file_data)
