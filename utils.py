@@ -189,7 +189,7 @@ def get_random_enemy(config_data,ischaosactive):
     if "Keese" in enemy:
         config_data["Translate"][1] = oead.F32(float(config_data["Translate"][1]) + 2.5)
 
-    if str(config_data['HashId']) in DEFAULTS['IchigekiActors']:
+    if str(hex(config_data['HashId'])) in DEFAULTS['IchigekiActors']:
         config_data["!Parameters"]["IsIchigekiActor"] = True
 
     return config_data

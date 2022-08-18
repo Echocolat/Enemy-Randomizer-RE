@@ -445,7 +445,7 @@
     "Pack\\Dungeon118.pack",
     "Pack\\Dungeon119.pack"
   ],
-  "Aoc packs": [
+  "DLC shrine packs": [
     "Pack\\Dungeon120.pack",
     "Pack\\Dungeon121.pack",
     "Pack\\Dungeon122.pack",
@@ -462,7 +462,9 @@
     "Pack\\Dungeon133.pack",
     "Pack\\Dungeon134.pack",
     "Pack\\Dungeon135.pack",
-    "Pack\\Dungeon136.pack",
+    "Pack\\Dungeon136.pack"
+  ],
+  "Divine Beast packs": [
     "Pack\\RemainsElectric.pack",
     "Pack\\RemainsFire.pack",
     "Pack\\RemainsWater.pack",
