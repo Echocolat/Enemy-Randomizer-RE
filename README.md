@@ -44,7 +44,12 @@ Take all the important data from the base mod you're extracting the enemies from
 Bootup.pack), and put them in `[yourfolder]\content`. Launch `main_modded_mode.py`, take the content within the  
 `Enemizer (modded)` folder and copy to `[yourfolder]`. Take the `rules.txt` in this folder and copy it to `[yourfolder]`.  
 Install the mod with BCML, activate it, and if you did everything good, it should work. If the mod you're using also uses 
-new weapons, don't forget to add them to the `ItemTableData` section of `defaults.json`.
+new weapons, don't forget to add them to the `ItemTableData` section of `defaults.json`.  
+
+###### Preset fusion
+
+By putting the two files of a preset inside `presets\fusion input\First preset` and `presets\fusion input\Second preset`,  
+and launching `presets\preset_fusion.py`, you will be able to get the fusion of the two, in `fusion output\fusion output`.
 
 #### Conclusion
 
