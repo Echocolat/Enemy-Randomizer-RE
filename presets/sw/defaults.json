@@ -259,40 +259,6 @@
         "SharpWeaponJudgeType": 0,
         "TerritoryArea": 0
       },
-      "Enemy_Octarock_Lava": {
-        "ArrowName": "NormalArrow",
-        "DropTable": "Normal",
-        "EquipItem1": "Default",
-        "EquipItem2": "Default",
-        "EquipItem3": "Default",
-        "EquipItem4": "Default",
-        "IsNearCreate": false,
-        "LevelSensorMode": 1,
-        "NearCreateAppearID": 0,
-        "SharpWeaponJudgeType": 1,
-        "TerritoryArea": 0
-      },
-      "Enemy_Octarock_Ice": {
-        "ArrowName": "NormalArrow",
-        "DropTable": "Normal",
-        "EquipItem1": "Default",
-        "EquipItem2": "Default",
-        "EquipItem3": "Default",
-        "EquipItem4": "Default",
-        "IsNearCreate": false,
-        "LevelSensorMode": 1,
-        "NearCreateAppearID": 0,
-        "SharpWeaponJudgeType": 0,
-        "TerritoryArea": 0
-      },
-      "Enemy_Wizzrobe_Boss": {
-        "EquipItem1": "Weapon_Sword_050",
-        "IsNearCreate": false,
-        "LevelSensorMode": 0,
-        "NearCreateAppearID": 0,
-        "SharpWeaponJudgeType": 0,
-        "TerritoryArea": 0
-      },
       "Enemy_Armos_Electric": {
         "ArrowName": "NormalArrow",
         "DropTable": "Normal",
@@ -1356,8 +1322,7 @@
         "Enemy_Wizzrobe_Fire":"Weapon_Sword_060",
         "Enemy_Wizzrobe_Fire_Senior":"Weapon_Sword_048",
         "Enemy_Wizzrobe_Ice":"Weapon_Sword_061",
-        "Enemy_Wizzrobe_Ice_Senior":"Weapon_Sword_049",
-        "Enemy_Wizzrobe_Boss":"Weapon_Sword_050"
+        "Enemy_Wizzrobe_Ice_Senior":"Weapon_Sword_049"
       },
       "IsBowOnly": [
         "Enemy_Assassin_Shooter_Azito_Junior"
@@ -1426,8 +1391,7 @@
         "Enemy_Guardian_Mini_Baby_Electric",
         "Enemy_Guardian_Mini_Baby_Ice",
         "Enemy_Octarock_Boss",
-        "Enemy_Octarock_Ice",
-        "Enemy_Octarock_Lava"
+        "Enemy_Giant_Boss"
       ],
       "IsOneWeapon":
       [
